@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const corsOptions = {
   //   origin: "https://mplayer1.netlify.app",
-  origin: "null", //your frontend url here
+  origin: "https://mp4converter.netlify.app/", //your frontend url here
 // origin:"null",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
