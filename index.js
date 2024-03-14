@@ -3,17 +3,17 @@ const app = express();
 const ytdl = require("ytdl-core");
 const cors = require("cors");
 
-const corsOptions = {
-  //   origin: "https://mplayer1.netlify.app",
-  origin: "https://mp4converter.netlify.app/", //your frontend url here
-// origin:"null",
-  credentials: true, //access-control-allow-credentials:true
-  optionSuccessStatus: 200,
-  exposedHeaders: "**",
+// const corsOptions = {
+//   //   origin: "https://mplayer1.netlify.app",
+//   origin: "https://mp4converter.netlify.app/", //your frontend url here
+// // origin:"null",
+//   credentials: true, //access-control-allow-credentials:true
+//   optionSuccessStatus: 200,
+//   exposedHeaders: "**",
 
-};
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 app.get("/download", async (req, res, next) => {
   console.log(req.query.url);
