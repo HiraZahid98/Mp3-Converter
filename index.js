@@ -7,7 +7,7 @@ const corsOptions = {
   //   origin: "https://mplayer1.netlify.app",
   // origin: "https://mp4converter.netlify.app/", //your frontend url here
 // origin:"https://frontend--mp4converter.netlify.app",
-origin:"https://ytconvertpro.com",
+origin:"https://www.ytconvertpro.com",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
   exposedHeaders: "**",
